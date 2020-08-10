@@ -1,0 +1,186 @@
+{
+    "page_title": "主页",
+    "page_logo": "/static/img/logo3.jpg",
+    "page_icon": "/static/img/logo3.jpg",
+    "page_desc": "这是一个导航页面",
+    "page_background": "/static/img/mountain.jpg",
+    "page_background_m": "/static/img/mountain_m.jpg",
+    "blocks": [
+        {
+            "block_title": "常用",
+            "display": true,
+            "items": [
+                {
+                    "title": "百度",
+                    "display": true,
+                    "url": "https://www.baidu.com",
+                    "hotkey": [
+                        "s"
+                    ]
+                },
+                {
+                    "title": "HostLoc",
+                    "display": true,
+                    "url": "https://hostloc.com/forum-45-1.html",
+                    "hotkey": [
+                        "h"
+                    ]
+                },
+                {
+                    "title": "Google",
+                    "display": true,
+                    "url": "https://www.google.com",
+                    "hotkey": [
+                        "g"
+                    ]
+                },
+                {
+                    "title": "GitHub",
+                    "display": true,
+                    "url": "https://www.github.com/",
+                    "hotkey": []
+                },
+                {
+                    "title": "Gmail",
+                    "display": false,
+                    "url": "https://gmail.com/",
+                    "hotkey": []
+                }
+            ]
+        },
+        {
+            "block_title": "工具",
+            "display": true,
+            "items": [
+                {
+                    "title": "JSON Editor",
+                    "display": true,
+                    "url": "http://www.kjson.com/static/jsoneditor/index.html",
+                    "hotkey": [
+                        "j"
+                    ]
+                },
+                {
+                    "title": "DeepL",
+                    "display": true,
+                    "url": "https://www.deepl.com/translator",
+                    "hotkey": []
+                }
+            ]
+        },
+        {
+            "block_title": "娱乐",
+            "display": true,
+            "items": [
+                {
+                    "title": "哔哩哔哩",
+                    "display": true,
+                    "url": "https://www.bilibili.com",
+                    "hotkey": [
+                        "l"
+                    ]
+                },
+                {
+                    "title": "YouTube",
+                    "display": true,
+                    "url": "https://www.youtube.com/",
+                    "hotkey": []
+                },
+                {
+                    "title": "QQ音乐",
+                    "display": true,
+                    "url": "https://y.qq.com/",
+                    "hotkey": [
+                        "q"
+                    ]
+                },
+                {
+                    "title": "网易云音乐",
+                    "display": true,
+                    "url": "https://music.163.com/",
+                    "hotkey": [
+                        "n"
+                    ]
+                }
+            ]
+        },
+        {
+            "block_title": "折腾",
+            "display": true,
+            "items": [
+                {
+                    "title": "Kernel",
+                    "display": true,
+                    "url": "https://www.kernel.org/",
+                    "hotkey": []
+                },
+                {
+                    "title": "U-Boot",
+                    "display": true,
+                    "url": "https://www.denx.de/",
+                    "hotkey": []
+                },
+                {
+                    "title": "恩山无线",
+                    "display": true,
+                    "url": "https://www.right.com.cn/forum/",
+                    "hotkey": []
+                },
+                {
+                    "title": "Meson",
+                    "display": true,
+                    "url": "http://www.linux-meson.com/doku.php",
+                    "hotkey": []
+                },
+                {
+                    "title": "Amlgic",
+                    "display": true,
+                    "url": "http://openlinux.amlogic.com/",
+                    "hotkey": []
+                },
+                {
+                    "title": "Sunxi",
+                    "display": true,
+                    "url": "http://linux-sunxi.org",
+                    "hotkey": []
+                },
+                {
+                    "title": "数码之家",
+                    "display": true,
+                    "url": "https://www.mydigit.cn/forum.php",
+                    "hotkey": []
+                },
+                {
+                    "title": "WhyCan",
+                    "display": true,
+                    "url": "https://whycan.cn/",
+                    "hotkey": []
+                }
+            ]
+        },
+        {
+            "block_title": "其他",
+            "display": true,
+            "items": [
+                {
+                    "title": "微信",
+                    "display": true,
+                    "url": "https://wx.qq.com/",
+                    "hotkey": []
+                }
+            ]
+        },
+        {
+            "block_title": "模板",
+            "display": false,
+            "items": [
+                {
+                    "title": "标题",
+                    "display": true,
+                    "url": "https://www.example.com",
+                    "hotkey": []
+                }
+            ]
+        }
+    ]
+}

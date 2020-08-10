@@ -1,0 +1,138 @@
+body {
+    font-family: 'Microsoft Yahei';
+    background-size: 100% auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    margin-bottom: 0;
+    padding: 15px;
+}
+
+div.ceiling {
+    padding: 0;
+}
+
+@media (max-width:768px) {
+    .container-fluid>.navbar-collapse,
+    .container-fluid>.navbar-header,
+    .container>.navbar-collapse,
+    .container>.navbar-header {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .navbar-header {
+        float: left;
+        font-size: 20px;
+    }
+}
+
+div.container {
+    margin: 0;
+    padding: 0;
+}
+
+img.logo_pic {
+    height: 50px;
+    width: 50px;
+    background-position: 0px -24px;
+}
+
+div.ceiling a:link,
+div.ceiling a:visited {
+    color: #000000;
+    text-decoration: none;
+    float: right;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+div.ceiling a:hover {
+    color: #9d2933;
+    background-color: transparent;
+}
+
+div.ceiling a:focus {
+    outline: none;
+    background-color: transparent;
+}
+
+div.blocks {
+    margin: 0 auto;
+    float: none;
+}
+
+div.block {
+    margin: 0;
+    padding: 3px;
+    opacity: 0.9;
+}
+
+div.building {
+    border-radius: 2px;
+    box-shadow: 1px 3px 2px -2px rgba(0, 0, 0, 0.1);
+    padding: 0;
+}
+
+div.block-header {
+    margin: 0;
+    padding-bottom: 2px;
+}
+
+div.block-desc {
+    padding: 0;
+}
+
+div.block-name {
+    text-align: center;
+    padding: 1px 1px 1px 1px;
+}
+
+div.block-name span {
+    padding-top: 2px;
+    display: block;
+    color: #000000;
+    font-size: 16px;
+    font-family: 'STHeiti';
+    font-weight: bold;
+    line-height: 32px;
+    height: 32px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+div.website {
+    padding: 1px;
+}
+
+div.website a:link,
+div.website a:visited {
+    background-color: #ffffff;
+    display: block;
+    position: relative;
+    text-align: center;
+    /* vertical-align: middle; */
+    text-decoration: none;
+    line-height: 45px;
+    height: 45px;
+    font-size: 14px;
+    border-radius: 2px;
+    color: #474a4d;
+    overflow: hidden;
+    transition-property: background-color, color, font-size;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+}
+
+div.website a.hover {
+    background-color: #2c3e50;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+div.modal-desc {
+    padding: 0 0 0 15px;
+    font-size: 12px;
+}
