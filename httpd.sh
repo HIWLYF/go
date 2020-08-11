@@ -1,2 +1,2 @@
-#python -m http.server 80
-python3 -m http.server
+#!/bin/bash
+python3 -m http.server 80
